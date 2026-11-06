@@ -1,0 +1,29 @@
+Package: adaptsurv
+Title: Simulate Bayesian Adaptive Two-Arm Survival Trials
+Version: 0.1.0
+Authors@R: 
+    person("Adrian", "Wurm", , "352921927+adrianwurm@users.noreply.github.com", role = c("aut", "cre"))
+Description: Simulates randomised two-arm trials with a time-to-event
+    endpoint and compares two designs: a fixed design analysed once with the
+    log-rank test, and a Bayesian adaptive design based on conjugate Gamma
+    priors for exponential hazard rates, with interim analyses allowing
+    early stopping for efficacy or futility. Decision thresholds are
+    calibrated by simulation to a one-sided type I error of 2.5%. Scenarios
+    with non-proportional hazards are supported.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    ggplot2,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Imports: 
+    stats,
+    survival
+Depends: 
+    R (>= 3.5)
+LazyData: true
