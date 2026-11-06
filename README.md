@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/adrianwurm/adaptsurv/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/adrianwurm/adaptsurv/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 adaptsurv simulates two-arm oncology trials with a time-to-event
