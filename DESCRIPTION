@@ -27,5 +27,5 @@ Imports:
 Depends: 
     R (>= 3.5)
 LazyData: true
-URL: https://github.com/adrianwurm/adaptsurv
+URL: https://github.com/adrianwurm/adaptsurv, https://adrianwurm.github.io/adaptsurv/
 BugReports: https://github.com/adrianwurm/adaptsurv/issues
