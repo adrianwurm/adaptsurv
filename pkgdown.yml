@@ -1,0 +1,9 @@
+pandoc: 3.8.3
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  adaptsurv: adaptsurv.html
+last_built: 2026-11-06T12:47Z
+urls:
+  reference: https://adrianwurm.github.io/adaptsurv/reference
+  article: https://adrianwurm.github.io/adaptsurv/articles
